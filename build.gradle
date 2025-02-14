@@ -1,0 +1,13 @@
+// Construção da aplicação do app
+plugins { // Utiliza o plugin do java e do console, sem ter a necessidade de configurar tudo
+    id 'war'
+    id 'org.gretty' version '4.1.6'
+}
+
+repositories { // Aponta para um repositorio da internet/metarepositorios (2 principais): mavenCentral e genCentral
+    mavenCentral()
+}
+
+gretty {
+    contextPath = '/'
+}
