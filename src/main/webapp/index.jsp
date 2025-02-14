@@ -7,7 +7,7 @@
     <title>Exemplo</title>
 </head>
     <body>
-        <h1>Quem ler é gay</h1>
+        <h1>Jesus te ama!</h1>
         <%
             for(int cont =0;cont < 10;cont++) {
                 out.print("<br />" + cont);
